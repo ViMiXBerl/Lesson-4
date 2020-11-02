@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.awesome {
+  position: fixed;
+  width: 100%;
+  background-color: #000000;
+  font-family: "Raleway", sans-serif;
+  z-index: 10px;
+}
+.wrapper2 {
+  width: 90%;
+  background-color: #000000;
+  padding-top: 18px;
+  padding-bottom: 23px;
+}
+.image {
+  width: 79px;
+  height: 26px;
+  background-image: url(images/Logo.png);
+  background-position: center;
+  float: left;
+  margin: 0px 920px 0px 143px;
+}
+.menu {
+  color: #ffffff;
+  /* float: right; */
+  display: inline-block;
+  margin: 0px 12px;
+  text-align: center;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: normal;
+}
+/* стили для меню */
+.allelements {
+  margin: 0px auto 102px;
+  padding-top: 166px;
+  text-align: center;
+}
+.header {
+  margin-bottom: 66px;
+}
+.title {
+  font-style: normal;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 43px;
+  font-family: "Raleway", sans-serif;
+  color: #212121;
+}
+.line {
+  width: 102px;
+  height: 2px;
+  margin: 22px auto;
+
+  background-color: #ff8b38;
+}
+.text {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #868788;
+}
+.wrapper {
+  width: 89%;
+  margin: 0px auto 310px;
+  padding-left: 300px;
+}
+/* применить calc c width % */
+.card {
+  width: 349px;
+  float: left;
+}
+.card_image_lamp {
+  width: 70px;
+  height: 70px;
+  margin: 0px auto 27px;
+
+  border: 2px solid #ff8b38;
+  border-radius: 100px;
+  background-image: url(images/lamp.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card_title {
+  margin-bottom: 16px;
+
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #333333;
+}
+.description {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #86878b;
+}
+.card2 {
+  margin: 0 33px;
+}
+.card_image_keyboard {
+  width: 70px;
+  height: 70px;
+  margin: 0px auto 27px;
+
+  border: 2px solid #ff8b38;
+  border-radius: 100px;
+  background-image: url(images/keyboard.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card_image_lightning {
+  width: 70px;
+  height: 70px;
+  margin: 0px auto 27px;
+
+  border: 2px solid #ff8b38;
+  border-radius: 100px;
+  background-image: url(images/lightning.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* основной раздел 1 */
+/* основной раздел 2 */
+.containing-block {
+  position: relative;
+  top: 111px;
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.header-2 {
+  padding-top: 102px;
+  margin-bottom: 81px;
+}
+.line-2 {
+  width: 64px;
+}
+.black-block {
+  position: absolute;
+  top: 327px;
+  right: 0px;
+  bottom: 0px;
+  left: 406px;
+
+  width: 343px;
+  color: #ffffff;
+  font-style: normal;
+  text-align: center;
+
+  padding-left: 0px;
+  height: 438px;
+  background-color: #333333;
+  list-style-type: none;
+}
+
+.first-child {
+  margin-top: 18px;
+  padding-bottom: 17px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.img-1 {
+  background-image: url(images/$0.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-2 {
+  background-image: url(images/$19.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-3 {
+  background-image: url(images/$70.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.second-child {
+  width: 76px;
+  height: 24px;
+  padding: 38px 210px 38px 134px;
+
+  border-bottom: 1px solid #f5f5f5;
+}
+.third-child {
+  padding: 13px 0px;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 24px;
+  border-bottom: 5px solid #ff8b38;
+}
+li :nth-child(3) {
+  background-color: #ff8b38;
+  padding: 8px 0px;
+}
+.fives-child {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #86878b;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.bl2 {
+  position: absolute;
+  top: 292px;
+  right: 0px;
+  bottom: 0px;
+  left: 789px;
+}
+.bl3 {
+  position: absolute;
+  top: 327px;
+  right: 0px;
+  bottom: 0px;
+  left: 1172px;
+  margin: 0px;
+}
